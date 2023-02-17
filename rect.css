@@ -1,0 +1,39 @@
+#imgrec{
+    width: 450px;
+    height: 370px;
+    margin-left: 20px;
+    border: #2B3A55 solid 2px;
+}
+table{
+    width: 90%;
+}
+li{
+    width: 100px;
+    font-size: 22px;
+}
+#recet , #ing{
+    width: 300px ;
+    margin-top: 0px;
+    border: 3px #2B3A55;
+    border-style: hidden hidden hidden solid;
+    height: 535px;
+    margin-left: 50px;
+    color: #2B3A55;
+}
+article{
+    font-size: 20px;
+    color: #2B3A55;
+}
+.li1{
+    list-style-type: disc;
+}
+.li2{
+    list-style-type:lower-roman;
+}
+.title1{
+    margin-left: 170px;
+    margin-top: -10px;
+    color: #2B3A55;
+    font-weight: lighter;
+    text-decoration: underline 2px #2B3A55;
+}

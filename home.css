@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico/Pacifico-Regular.ttf);
+}
+body{
+    background-color: #F2E5E5;
+}
+*{
+    font-family: "Pacifico";
+}
+header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 65px;
+}
+li{
+    list-style-type: none;
+}
+.home{
+    position: absolute;
+    width: 70px;
+    left: 1040px;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #2B3A55;
+    margin-top: -20px;
+    text-align: center;
+    border-radius: 40px;
+}
+a{
+    text-decoration: none;
+}
+.home:hover{
+    color: #2B3A55;
+    background-color: #CE7777;
+    border: #2B3A55 solid 2px;
+}
+.contact{
+    position: absolute;
+    width: 125px;
+    left: 1150px;
+    font-weight:lighter;
+    font-size: 25px;
+    color: #2B3A55;
+    margin-top: -20px;
+    text-align: center;
+    border-radius: 40px;
+}
+.contact:hover{
+    color: #2B3A55;
+    background-color: #CE7777;
+    border: #2B3A55 solid 2px;
+}
+#sec1{
+    background-color: #2B3A55;
+    width: 370px;
+    height: 630px;
+    display: inline-block;
+    margin-top: -75px;
+    margin-left: 100px;
+}
+#imgh{
+    transform: rotate(90deg);
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    border: #CE7777 solid 5px;
+    border-radius: 40px;
+}
+#quote{
+    position: absolute;
+    width: 600px;
+    height: 286px;
+    right: -155px;
+    top: 30px;
+    font-size: 50px;
+    color: #2B3A55;
+}
+.notbutton{
+    position: absolute;
+    border: #CE7777 solid 2px;
+    width: 170px;
+    height: 45px;
+    background-color: #2B3A55;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 0px;
+    right: 200px;
+    top: 450px;
+    font-size: 25px;
+    color: #CE7777;
+    font-weight: lighter;
+}
+.notbutton:hover{
+    color: #2B3A55;
+    background-color: #CE7777;
+    border: #2B3A55 solid 2px;
+}
+
